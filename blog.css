@@ -1,0 +1,55 @@
+
+
+
+
+
+#blog h2, h4, p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #333;
+}
+
+
+#blog article{
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+    box-shadow: 0 0 10px #444444;
+    border-radius: 20px;
+}
+
+@media (min-width:768px){
+
+#blog{
+    margin: 100px auto;
+}
+
+
+   #blog h2{
+    font-size: 40px;
+}
+    
+#blog h4{
+    font-size: 25px;
+}
+
+#blog p{
+    font-size: 30px;
+}
+
+    
+}
+
+@media (min-width:1024px){
+
+
+}
